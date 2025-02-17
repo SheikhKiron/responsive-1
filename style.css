@@ -1,0 +1,158 @@
+body{
+   font-family: "Poppins", serif;
+   background-color: #E5E5E5!important;
+}
+/*------------------------------ navbar --------------------------*/
+.navbar{
+  background-color: #562EFF;
+  font-family:"Poppins", serif;
+}
+
+.navbar .logo{
+  margin-left: 230px;
+}
+.logo span{
+  color: #fff;
+  font-size: 24px;
+  font-family:"Poppins", serif;
+  font-weight: 500;
+}
+
+.navbar ul{
+   margin-right: 230px;
+}
+.nav-item a{
+   color: #fff !important;
+  font-size: 16px;
+  font-family:"Poppins", serif;
+  font-weight: 400; 
+}
+@media (max-width:1000px){
+ .logo{
+    margin-left: 0 !important;
+  }
+}
+
+/*------------------------- main -----------------------------------------*/
+.main{
+  max-width: 870px;
+  height: 679px;
+  background-color: #fff !important;
+}
+
+.player{
+ display: flex;
+ gap: 7px;
+padding: 15px;
+
+}
+.t{
+  margin-top: 22px !important;
+}
+.player p{
+   font-family:"Poppins", serif;
+   font-size: 18px;
+   color: black;
+   font-weight: 500;
+   margin-top:13px;
+}
+.player img{
+  width: 56px;
+
+}
+
+.top{
+   font-family:"Poppins", serif;
+   font-size: 24px;
+   color: #562EFF;
+}
+
+
+/*--------------------- blog ----------------------------------*/
+
+.blog{
+  display: flex;
+  margin-top: 20px !important;
+ 
+}
+.blog img{
+  width: 177px;
+  margin-left: 6px;
+}
+
+.blog p{
+     color: #000 !important;
+  font-size: 20px;
+  font-family:"Poppins", serif;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-top: 10px; 
+}
+.by{
+     color: #9F9F9F !important;
+  font-size: 16px;
+  font-family:"Poppins", serif;
+  font-weight: 500; 
+}
+.nam{
+     color: #562EFF !important;
+  font-size: 16px;
+  font-family:"Poppins", serif;
+  font-weight: 500; 
+}
+
+@media(max-width:1000px){
+  .main{
+    height: auto;
+  }
+}
+
+/*-------------------------------- course ---------------------------------*/
+
+.course{
+  max-width: 870px;
+  height: 362px;
+  background-color: #fff;
+}
+
+.card{
+  width: 252px;
+  height: 269px !important;
+  background-color: #fff!important;
+  border: 1px solid white !important;
+
+  margin-top: 15px !important;
+}
+
+.card h1{
+  font-family: "Urbanist", serif;
+  font-size: 20px;
+  font-weight: 700;
+
+}
+.card p{
+  font-family: "Urbanist", serif;
+  font-size: 15px;
+  font-weight: 500; 
+  color: #ED6B4F;
+}
+
+@media(max-width:1000px){
+  .course{
+    height: auto !important;
+    margin-bottom: 20px;
+    
+  }
+  
+}
+
+@media(max-width:768px){
+  .course{
+    height: auto !important;
+
+  }
+  .card{
+    width: 100% !important;
+    height: auto !important;
+  }
+}
